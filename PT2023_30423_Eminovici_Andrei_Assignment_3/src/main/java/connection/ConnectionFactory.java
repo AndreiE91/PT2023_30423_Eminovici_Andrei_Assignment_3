@@ -8,13 +8,17 @@ import java.sql.Statement;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+/**
+ * Class which creates a connection with the DB for the other accessing classes
+ * @author Andrei Eminovici
+ */
 public class ConnectionFactory {
 
     private static final Logger LOGGER = Logger.getLogger(ConnectionFactory.class.getName());
     private static final String DRIVER = "com.mysql.cj.jdbc.Driver";
-    private static final String DBURL = "jdbc:mysql://localhost:3306/schooldb";
+    private static final String DBURL = "jdbc:mysql://localhost:3306/warehousedb";
     private static final String USER = "root";
-    private static final String PASS = "root";
+    private static final String PASS = "";
 
     private static ConnectionFactory singleInstance = new ConnectionFactory();
 
