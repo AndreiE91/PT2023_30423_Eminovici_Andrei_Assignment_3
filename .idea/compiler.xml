@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="PT2023_30423_Eminovici_Andrei_Assignment_3" />
+        <module name="Warehouse-Management-App" />
       </profile>
     </annotationProcessing>
   </component>
